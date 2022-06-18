@@ -1,0 +1,61 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.text {
+    position: relative;
+    padding-left: 20px;
+    background-color: #f0f2f5;
+    white-space: pre-wrap;
+    word-break: break-word;
+    line-height: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: 15px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.post {
+    display: flex;
+    align-items: flex-start;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 65px;
+    color: #383a45;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.buttons img {
+    display: block;
+    width: 20px;
+    padding-right: 4px;
+}
+
+.like,
+.comment {
+    margin-right: 15px;
+    display: flex;
+    cursor: pointer;
+    user-select: none;
+}
+
+.like p:last-child {
+    padding-left: 4px;
+}
+
+.comment {
+    margin-right: 0;
+}
+
+.ava {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
